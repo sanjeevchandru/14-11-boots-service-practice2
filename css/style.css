@@ -1,0 +1,36 @@
+.title-row>span{
+    color: #8fc04e;
+    background-color: #f3f8ec;
+}
+.title-row h3>span{
+    color: #8fc04e ;
+}
+.srve-card{
+    border: 1px solid #e5f0d5;
+}
+.srve-card:hover{
+    box-shadow: 0 0 20px #e2e1e1;
+    border: 0;
+}
+.srve-icon i{
+    color: #bfdb99;
+}
+.srve-icon{
+    background-color: #f3f8ec;
+    border:1px  solid #d6e8bf;
+    width: 60px;
+    height: 60px;
+    /* border-radius: 50%; */
+}
+.srve-card:hover h3{
+    color: #8fc04e;
+    transform: all 0.5s ease;
+}
+.srve-card:hover .srve-icon{
+    border: 1px solid #8fc04e;
+    transform: all 0.5s ease;
+}
+.srve-card:hover .srve-icon i{
+    color: #8fc04e;
+    transform: all 0.5s ease;
+}
